@@ -21,7 +21,7 @@ ventana_principal = Tk()
 ventana_principal.title("sistemas uis socorro")
 
 #tamaño de la ventana
-ventana_principal.geometry("500x500")
+ventana_principal.geometry("700x500")
 
 # deshabilitar de 
 ventana_principal.resizable(0,0)
@@ -35,25 +35,53 @@ ventana_principal.config(bg="grey99")
 
 
 Frame_entrada = Frame(ventana_principal)
-Frame_entrada.config(bg="yellow" ,width= 500, height=250 )
+Frame_entrada.config(bg="red" ,width= 150, height=200 )
 Frame_entrada.place(x=0,y=0)
 
-
 #-------------------------------------
-#frame operaciones 
-#-------------------------------------
-Frame_operaciones = Frame(ventana_principal)
-Frame_operaciones.config(bg="blue" ,width= 400, height=125 )
-Frame_operaciones.place(x=0,y=250)
-
-
-#-------------------------------------
-#frame resultados 
+#frame entrada datos
 #-------------------------------------
 
-Frame_resultados = Frame(ventana_principal)
-Frame_operaciones.config(bg="red" ,width= 500, height=125 )
-Frame_operaciones.place(x=0,y=375)
+
+Frame_entrada = Frame(ventana_principal)
+Frame_entrada.config(bg="red" ,width= 150, height=210 )
+Frame_entrada.place(x=0,y=300)
+
+#-------------------------------------
+#frame entrada datos
+#-------------------------------------
+
+
+Frame_entrada = Frame(ventana_principal)
+Frame_entrada.config(bg="red" ,width= 500, height=210 )
+Frame_entrada.place(x=200,y=0)
+
+#-------------------------------------
+#frame entrada datos
+#-------------------------------------
+
+
+Frame_entrada = Frame(ventana_principal)
+Frame_entrada.config(bg="red" ,width= 500, height=210 )
+Frame_entrada.place(x=200,y=200)
+
+#-------------------------------------
+#frame entrada datos
+#-------------------------------------
+
+
+Frame_entrada = Frame(ventana_principal)
+Frame_entrada.config(bg="blue4" ,width= 700, height=50 )
+Frame_entrada.place(x=0,y=230)
+
+#-------------------------------------
+#frame entrada datos
+#-------------------------------------
+
+
+Frame_entrada = Frame(ventana_principal)
+Frame_entrada.config(bg="blue4" ,width= 50, height=700 )
+Frame_entrada.place(x=190,y=0)
 
 
 #run
